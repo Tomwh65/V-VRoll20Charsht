@@ -1,0 +1,19 @@
+select {
+    width: 60px;
+    margin-top: 8px;
+
+}
+
+th {
+    text-align: left;
+}
+/* LOGO SECTION */
+
+.sheet-logo{
+  grid-area: logo;
+  background-image: url(https://github.com/Tomwh65/V-VRoll20Charsht/tree/Villians_and_Vigilantes_Mighty_Protectors/Villains_and_Vigilantes_Mighty_Protectors/Mighty_Protectors_Logo.png?raw=true);
+  background-size: 295px 180px;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  margin-top: 15px;
+}
