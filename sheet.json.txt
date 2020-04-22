@@ -1,8 +1,0 @@
-{
-    "html": "V&V_MPcharactersheet.html",
-    "css": "V&V_MPCharactersheet.css",
-    "authors": "Tom H",
-    "roll20userid": "Tom H.",
-    "preview": "V&V_Mighty_Protectors.png",
-    "instructions": "The Villains and Vigilantes Mighty Protectors character sheet with automated rolls",
-}
