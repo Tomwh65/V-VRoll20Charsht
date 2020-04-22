@@ -20,10 +20,10 @@
             <pre><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Age:</b></pre>
             <span class="sheet-table-data"><input style="width:50px;" type="number" name="attr_age" title="age" value="0"/></span>
             <BR>
-            <pre><b>&nbsp;&nbsp;Height:</b></pre>
+            <pre><b>&nbsp;&nbsp;&hairsp;Height:</b></pre>
     		    <span class="sheet-table-data"><input style="width:50px;" type="text" name="attr_height" title="height"/></span>
             <BR>
-            <pre><b>&nbsp;Weight:</b></pre>
+            <pre><b>&nbsp;&hairsp;&hairsp;Weight:</b></pre>
       		  <span class="sheet-table-data"><input style="width:50px;" type="text" name="attr_weight" title="weight"/></span>
             <pre><b> lbs</b></pre>
             <BR>
@@ -101,9 +101,9 @@
   </div>
     <div class="sheet-table">
 			<div class="sheet-table-row">
-        <span class="sheet-table-data"><b>COST</b></span>
+        <span class="sheet-table-data"><b>&hairsp;COST</b></span>
 				<span class="sheet-table-data">&emsp;</span>
-        <span class="sheet-table-data"><b>Invention Pts:</b></span>
+        <span class="sheet-table-data"><b>&hairsp;Invention Pts:</b></span>
 				<span class="sheet-table-data"><input type="number" name="attr_invention_points" title="invention_points" value="round(@{intelligence_score} / 2)+@{invention_mod}" disabled/></span>
 				<span class="sheet-table-data">&nbsp;</span>
 				<span class="sheet-table-data"><b>Used:</b></span>
@@ -118,7 +118,7 @@
 				<span class="sheet-table-data">&emsp;</span>
 				<span class="sheet-table-data">&emsp;</span>
 				<span class="sheet-table-data">&emsp;</span>
-        <span class="sheet-table-data"><b>IPs:</b></span>
+        <span class="sheet-table-data"><b>&hairsp;IPs:</b></span>
       </div>
 		</div>
 		<div class="sheet-table">
@@ -260,7 +260,7 @@
 	<div class="sheet-section-details" style="border-style:solid;border-width:2px;">
     	<div class="sheet-table">
 			<div class="sheet-table-row">
-				<pre><b>COST</b></pre>
+				<pre><b>&hairsp;COST</b></pre>
 				<pre><b>&nbsp;&nbsp;&nbsp;BC</b></pre>
 				<pre><b>&nbsp;SCORE</b></pre>
 			</div>
@@ -268,7 +268,7 @@
 		<div class="sheet-table">
 			<div class="sheet-table-row">
 				<span class="sheet-table-data"><input type="number" name="attr_strength_cost" title="strength_cost" value="0"/></span>
-				<pre><b><b>ST&nbsp;</b></pre>
+				<pre><b><b>ST&nbsp;&hairsp;</b></pre>
 				<span class="sheet-table-data"><input type="number" name="attr_strength_score" title="strength_score"/></span>
 				<pre><b>&nbsp;SAVE</b></pre>
 				<pre><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CARRYING CAPACITY:</b></pre>
@@ -297,7 +297,7 @@
 		<div class="sheet-table">
 			<div class="sheet-table-row">
 				<span class="sheet-table-data"><input type="number" name="attr_agility_cost" title="agility_cost" value="0"/></span>
-				<pre><b>AG</b></pre>
+				<pre><b>AG&thinsp;</b></pre>
 				<span class="sheet-table-data"><input type="number" name="attr_agility_score" title="agility_score"/></span>
 				<span class="sheet-table-data"><input type="number" name="attr_agility_save" title="agility_save"/></span>
 				<span class="sheet-table-data"><button type='roll' value='@{character_name} rolls a save against Agility with [[1d20<?{Agility Target|@{agility_save}}]] success!' name='roll_Agility_Save'></button>
@@ -314,7 +314,7 @@
 		<div class="sheet-table">
 			<div class="sheet-table-row">
 				<span class="sheet-table-data"><input type="number" name="attr_intelligence_cost" title="intelligence_cost" value="0"/></span>
-				<pre><b>&nbsp;IN&nbsp;</b></pre>
+				<pre><b>&nbsp;IN&nbsp;&hairsp;</b></pre>
 				<span class="sheet-table-data"><input type="number" name="attr_intelligence_score" title="intelligence_score"/></span>
 				<span class="sheet-table-data"><input type="number" name="attr_intelligence_save" title="intelligence_save"/></span>
 				<span class="sheet-table-data"><button type='roll' value='@{character_name} rolls a save against Intelligence with [[1d20<?{Intelligence Target|@{intelligence_save}}]] success!' name='roll_Intelligence_Save'></button>
@@ -348,7 +348,7 @@
     <div class="sheet-table">
 			<div class="sheet-table-row">
        <pre><b>&nbsp;&nbsp;&nbsp;V</b></pre>
-       <pre><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EXPERIENCE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></pre>
+       <pre><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EXPERIENCE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></pre>
        <span class="sheet-table-data"><input style="width:100px;" type="text" name="attr_attack_four" title="attack_four"/></span>
        <span class="sheet-table-data"><input type="number" name="attr_tohit_four" title="tohit_four"/></span>
        <span class="sheet-table-data"><button type='roll' value='@{character_name} attacks @{target|foe|character_name} with @{attack_four}-@{combat_stance}+?{To Hit Modification|0} and hits [[1d20<?{Combat Target|@{tohit_four}}]] time!' name='roll_AttackFour'></button>
@@ -378,7 +378,7 @@
     <div class="sheet-table">
 			<div class="sheet-table-row">
         <pre><b>&nbsp;&nbsp;&nbsp;V</b></pre>
-  		  <pre><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spent:</b></pre>
+  		  <pre><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;Spent:</b></pre>
 		    <span class="sheet-table-data"><input style="width:50px;" type="number" name="attr_exp_spent" title="exp_spent"/></span>
         <pre><b>&nbsp;&nbsp;&#60;&nbsp;&nbsp;</pre>
  		    <span class="sheet-table-data"><input style="width:50px;" type="number" name="attr_exp_earned" title="exp_earned"/></span>
@@ -400,7 +400,7 @@
 				<pre><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROTECTION:</b></pre>
 				<pre><b>&nbsp;&nbsp;&nbsp;Kinetic</b></pre>
 				<pre><b>&nbsp;Energy</b></pre>
-				<pre><b>&nbsp;&nbsp;&nbsp;Bio</b></span>
+				<pre><b>&nbsp;&nbsp;&nbsp;Bio</b></pre>
 				<pre><b>&nbsp;&nbsp;&nbsp;&nbsp;Entropy</b></pre>
 				<pre><b>&nbsp;&nbsp;&nbsp;Psychic</b></pre>
 				<pre><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other</b></pre>
@@ -425,7 +425,7 @@
 			<div class="sheet-table-row">
         <span class="sheet-table-data"><input style="width:50px;" type="number" name="attr_physical_def" value="(@{agility_save}+@{physical_mod}+@{combat_stance}-10)" disabled/></span>
         <span class="sheet-table-data"><input style="width:50px;" type="number" name="attr_mental_def" value="(@{intelligence_save}+@{mental_mod}+@{combat_stance}-10)" disabled/></span>
-        <pre><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></pre>
+        <pre><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;</b></pre>
 				<span class="sheet-table-data"><input style="width:100px;" type="text" name="attr_protection_two" title="protection_two"/></span>
 				<span class="sheet-table-data"><input type="number" name="attr_kenetic_two" title="kenetic_two"/></span>
 				<span class="sheet-table-data"><input type="number" name="attr_energy_two" title="energy_two"/></span>
@@ -482,11 +482,11 @@
 		</div>
 		<div class="sheet-table">
 			<div class="sheet-table-row">
-				<pre><b>POWER:</b></pre>
+				<pre><b>POWER:&nbsp;&nbsp;</b></pre>
 				<span class="sheet-table-data"><input style="width:40px;" type="text" name="attr_power_score" title="power_score"/></span>
 				<pre><b>/</b></pre>
 				<span class="sheet-table-data"><input style="width:40px;" type="text" name="attr_power_score_max" title="power_score_max" value="(@{strength_score}+@{endurance_score}+@{intelligence_score}+@{agility_score})" disabled/></span>
-        <pre><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <pre><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fly:</b></pre>
 				<span class="sheet-table-data"><input style="width:40px;" type="number" name="attr_movement_flying" title="movement_flying" value="0"/></span>
         <pre><b>/</b></pre>
@@ -501,11 +501,11 @@
 		</div>
 		<div class="sheet-table">
 			<div class="sheet-table-row">
-				<pre><b>HIT PTS:</b></pre>
+				<pre><b>HIT PTS:&nbsp;&nbsp;</b></pre>
 				<span class="sheet-table-data"><input style="width:40px;" type="text" name="attr_hits_score" title="hits_score"/></span>
 				<pre><b>/</b></pre>
 				<span class="sheet-table-data"><input style="width:40px;" type="text" name="attr_hits_score_max" title="hits_score_max"/></span>
-        <pre><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <pre><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Climb: </b></pre>
         <span class="sheet-table-data"><input style="width:50px;" type="number" name="attr_movement_climbing" title="movement_climbing" value="round(@{movement_ground_total}/8)" disabled/></span>
         <span class="sheet-table-data"><button type='roll' value='@{character_name} rolls a save against slipping while climbing with [[1d20<?{Agility Target|@{agility_save}}]] successes!' name='roll_Climbing_Save'></button>
