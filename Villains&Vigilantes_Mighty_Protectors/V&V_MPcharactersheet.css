@@ -1,0 +1,31 @@
+select {
+    width: 60px;
+    margin-top: 8px;
+}
+
+th {
+    text-align: left;
+}
+/* LOGO SECTION */
+
+.sheet-logo{
+  grid-area: logo;
+  background-image: url(https://github.com/Tomwh65/V-VRoll20Charsht/blob/master/Mighty_Protectors_Logo.jpg?raw=true);
+  background-size: 295px 180px;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.sheet-img {
+  max-height: 100px;
+}
+
+.sheet-title{
+    Height: 75px;
+    Font-size: 50px;
+    Text-align: Center;
+    Font-Family: Impact, Arial, Sans-Serif;
+    Color: White;
+    Background-Color: Black;
+}
